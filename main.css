@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 2%;   
+}
+
+p{
+    color: sienna;
+    font-size: 25px;
+    text-align: left;
+}
+body{
+    background-image: url(Site-background-light.png);
+}
+
+h1{
+    color: rgb(175, 97, 8);
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    }
+
+h2{
+    color: rgb(175, 97, 8);
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.nav{
+    background-image: url(minecraft-banner-1.jpg);
+    display: flex;
+    flex-direction: row;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    font-size: 40px;
+    justify-content: center;
+    border-style:solid;
+    border-width:5px ;
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    font-size: 25px;
+    justify-content: center;
+    border: style 3px;;
+    border-width:5px ;
+    
+}
+.nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+.info a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
